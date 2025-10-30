@@ -4,4 +4,3 @@ for i in range(100, 0, -1):
         print("짝" * count)
     else:
         print(i)
-        
