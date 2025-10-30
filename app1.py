@@ -1,5 +1,5 @@
-for i in range(1, 101):
-    if i % 2 == 0 or i % 5 == 0:
-        print("X의 배수입니다")
+for num in range(1, 101):    
+    if num % 2 == 0 or num % 5 == 0:
+        print(f"{num}은 2 또는 5의 배수입니다.")
     else:
-        print(i)
+        print(num)
