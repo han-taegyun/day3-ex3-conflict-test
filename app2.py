@@ -1,6 +1,3 @@
-for i in range(100, 0, -1):
-    count = str(i).count('3')
-    if count > 0:
-        print("짝" * count)
-    else:
-        print(i)
+for n in range(100, 0, -1):
+    claps = '짝' * str(n).count('3')
+    print(claps if claps else n)
